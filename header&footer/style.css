@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Arima', Arial, Helvetica, sans-serif;    
+    min-height : 100vh;
+    font-size: x-large;
+    /* display : flex; */
+    color: #8800ff9e;
+    background-color: #c1edc9;
+
+}
+    header{
+        background-color: #a76b6b;
+        padding: 1px 0;
+        color: rgb(0, 255, 21);
+        text-align: center;
+        font-size: xx-large;
+/* font-family: 'Arima', Arial, Helvetica, sans-serif;    }
+    header h1{
+        margin: 0;
+        font-size: 24px; */
+    }
+main{
+    flex: 1;
+    padding: 38px;
+}
+footer{
+    background-color: #ffff00;
+        padding: 35px 0;
+        color: rgb(0, 217, 255);
+        text-align: center;
+    }
+.social-icon{
+    margin: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+.social-icon :hover{
+    color: rgb(255, 0, 238);
+}
+
+/* @media (max-width:600px){
+    header p {
+    /* font-size:12px ; */
+    /* margin:  5px ; */
+    /* }
+    /* .social-icon :hover{
+        color: aqua;
+    } 
+    }*/
