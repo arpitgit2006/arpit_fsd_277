@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>REGISTRATION FORM</h1>
+    </header>
+    <div class="form-container">
+        <form>
+             
+            <lable form="name">Name</lable>
+            <input type="text" id="name" placeholder="enter your name" required><br><br>
+            <lable form="email">Email</lable>  
+            <input type="email" id="email"  placeholder="enter your email" required><br><br>
+             <lable form="password">Parrword</lable>  
+            <input type="password" id="password"  placeholder="enter your password" required><br><br>
+            <lable>gender
+                <br/>
+                <label form="male">
+            <input type="radio" name="gender" label="male"  id="male" value="male">male
+            </label>
+            <label form="female">
+            <input type="radio" label="female" name="gender" id="female" value="female">female
+            </label>
+             <div class="feedback">
+            <textarea name="feedback" placeholder="feedback">feedback</textarea>
+             </div>
+        </form>
+    </div>
+</body>
+</html>
