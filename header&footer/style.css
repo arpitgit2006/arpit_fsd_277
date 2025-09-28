@@ -5,9 +5,8 @@ body{
     min-height : 100vh;
     font-size: x-large;
     /* display : flex; */
-    color: #8800ff9e;
+    color: #b300ff9e;
     background-color: #c1edc9;
-
 }
     header{
         background-color: #a76b6b;
@@ -36,7 +35,7 @@ footer{
     font-size: 40px;
 }
 .social-icon :hover{
-    color: rgb(255, 0, 238);
+    color: rgb(0, 4, 255);
 }
 
 /* @media (max-width:600px){
